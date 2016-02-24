@@ -71,7 +71,7 @@ class SoapClient implements SoapClientInterface
     }
 
     /**
-     * @param int $version
+     * @param string $version
      * @param string $soapAction
      * @param string $body
      * @return array
