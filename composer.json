@@ -1,6 +1,7 @@
 {
     "name": "meng-tian/php-async-soap",
-    "description": "An asynchronous SOAP client.",
+    "description": "Interface for asynchronous SOAP client.",
+    "keywords": ["SOAP", "asynchronous"],
     "license": "MIT",
     "authors": [
         {
@@ -8,14 +9,6 @@
             "email": "tianmeng94@hotmail.com"
         }
     ],
-    "require": {
-        "php": ">=5.5.0",
-        "meng-tian/php-soap-interpreter": "~0.2.0",
-        "guzzlehttp/guzzle": "^6.1"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "~4.8"
-    },
     "autoload": {
         "psr-4": {"Meng\\AsyncSoap\\": "src/"}
     }
