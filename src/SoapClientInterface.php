@@ -20,10 +20,10 @@ interface SoapClientInterface
      * @param array $arguments Operation arguments
      * @param array $options Options
      * @param mixed $inputHeaders Input SOAP headers
-     * @param array $output_headers Output SOAP headers
+     * @param array $outputHeaders Output SOAP headers
      * @return mixed
      */
-    public function call($name, array $arguments, array $options = null, $inputHeaders = null, array &$output_headers = null);
+    public function call($name, array $arguments, array $options = null, $inputHeaders = null, array &$outputHeaders = null);
 
     /**
      * Asynchronous SOAP call.
@@ -32,8 +32,8 @@ interface SoapClientInterface
      * @param array $arguments Operation arguments
      * @param array $options Options
      * @param mixed $inputHeaders Input SOAP headers
-     * @param array $output_headers Output SOAP headers
+     * @param array $outputHeaders Output SOAP headers
      * @return Promise instance with a then method
      */
-    public function callAsync($name, array $arguments, array $options = null, $inputHeaders = null, array &$output_headers = null);
+    public function callAsync($name, array $arguments, array $options = null, $inputHeaders = null, array &$outputHeaders = null);
 }
