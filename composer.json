@@ -11,5 +11,9 @@
     ],
     "autoload": {
         "psr-4": {"Meng\\AsyncSoap\\": "src/"}
+    },
+    "suggest": {
+        "meng-tian/async-soap-guzzle": "A Guzzle implementation of meng-tian/php-async-soap.",
+        "meng-tian/async-soap-artax": "A Artax implementation of meng-tian/php-async-soap."
     }
 }
