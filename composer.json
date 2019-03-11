@@ -1,5 +1,5 @@
 {
-    "name": "meng-tian/php-async-soap",
+    "name": "snowio/php-async-soap",
     "description": "Interface for asynchronous SOAP client.",
     "keywords": ["SOAP", "asynchronous"],
     "license": "MIT",
@@ -8,6 +8,10 @@
             "name": "Meng Tian",
             "email": "tianmeng94@hotmail.com"
         }
+    ],
+    "repositories": [
+        {"type": "composer", "url": "https://repo.packagist.com/snowio/"},
+        {"packagist.org": false}
     ],
     "autoload": {
         "psr-4": {"Meng\\AsyncSoap\\": "src/"}
