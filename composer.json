@@ -14,10 +14,10 @@
         {"packagist.org": false}
     ],
     "autoload": {
-        "psr-4": {"Meng\\AsyncSoap\\": "src/"}
+        "psr-4": {"SnowIO\\AsyncSoap\\": "src/"}
     },
     "suggest": {
-        "snowio/async-soap-guzzle": "A Guzzle implementation of meng-tian/php-async-soap.",
-        "snowio/async-soap-artax": "A Artax implementation of meng-tian/php-async-soap."
+        "snowio/async-soap-guzzle": "A Guzzle implementation of snowio/php-async-soap.",
+        "snowio/async-soap-artax": "A Artax implementation of snowio/php-async-soap."
     }
 }

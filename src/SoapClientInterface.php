@@ -1,6 +1,6 @@
 <?php
 
-namespace Meng\AsyncSoap;
+namespace SnowIO\AsyncSoap;
 
 interface SoapClientInterface
 {
